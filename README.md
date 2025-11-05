@@ -1,5 +1,5 @@
 # handmade_NN
-this small personal project is about building entirerly by myself a Neural Network (NN), and optimising it via a gradient descent. The goal of the project is to classify MNIST images of digits with the best accuracy (and speed) possible.
+this small personal project is about building entirerly by myself (no PyTorch, no TensorFlow, only basic tools of numpy for matrix products) a Neural Network (NN), and optimising it via a gradient descent. The goal of the project is to classify MNIST images of digits with the best accuracy (and speed) possible.
 
 the repositary contains two documents, the vectorisation one being the successor of the "wo" without vectorisation
 the description of the script is simple, we take iamges (28 x 28 size) from the MNIST database ( 50000 of training and 10000 of testing), and we build by hand a NN, with 2 hidden layers of 36 and 16 neurons. Then we optimise the weights and biases of the neurons using a gradient descent on them.
