@@ -19,6 +19,7 @@ The two versions :
 Results : 
 - 1st script : around 60% accuracy for a training of 50 iterations with a batch of 500
 - 2nd script : way faster, with around 2minutes in my PC, I can get training batches of 5000, and 2000 iterations. there is a increase of 600 times the speed I think. the results are also way better, the accuracy is generaly between 93-95% which good for a neural network that do not cares about the geometry of the image (non convolutionnal)
+- modifiing the 2nd script we optain the 3rd script that allows me to look for differents eta (which is really long because in the results in the short term are not everytime the ones in the long term, which makes the need for long computation necessary. the two images shows you the results that you can get (note that I purposly make the NN train of the test during the training to get information about the accuracy (I don't want to store every data during training), and that without training it starts at 10% which normal ; one fun fact about this curve is that we can see that for small etas, the derivative of the accuracy relative to the training in the beggining is zero, then for a certain number eta, it pops clearly (there is an obvious jump in my opinion)
 
 
 What I would like to get better
